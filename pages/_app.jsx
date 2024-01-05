@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <ThemeProvider>
         <Header />
-        <Container>
+        <Container page>
           <Component {...pageProps} />
         </Container>
       </ThemeProvider>

@@ -17,9 +17,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <>
       <SearchForm />
       <ProductList products={products} />
-    </div>
+    </>
   );
 }
